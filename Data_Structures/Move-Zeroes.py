@@ -10,17 +10,17 @@ from typing import List
 
 def moveZeroes(nums: List[int]) -> None:
     j = 0
-    for i in range(0, len(nums)):
-      if nums[i] != 0:
-        nums[j] = nums[i]
+    for num in nums:
+      if num!= 0:
+        nums[j] = num
         j +=1
     for x in range (j,len(nums)):
       nums[x]=0
       
 
 #Sample run
-#mylist= [0,1,0,3,1,2]
-#moveZeroes(mylist)
-#print(mylist)
+mylist= [0,1,0,3,1,2]
+moveZeroes(mylist)
+print(mylist)
        
         
