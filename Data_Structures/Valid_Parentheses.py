@@ -21,4 +21,4 @@ def isValid(s: str) -> bool:
         stack.append(s[i])
    if stack ==[]:
      return True
-print(isValid(''))
+
