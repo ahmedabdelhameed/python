@@ -12,9 +12,10 @@ def moveZeroes(nums: List[int]) -> None:
     j = 0
     for i in range(0, len(nums)):
       if nums[i] != 0:
-        nums[j] = nums[i]
-        nums[i] = 0
-        j +=1
+        temp = nums[i]
+        nums[i] = nums[j]
+        nums[j] = temp
+        j+=1
       
 
 #Sample run
