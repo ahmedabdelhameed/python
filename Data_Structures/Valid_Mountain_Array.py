@@ -18,6 +18,7 @@ def validMountainArray(A: List[int]) -> bool:
         
     if i==0 or i == (len(A)-1):
         return False
+
     while i+1< len(A) and (A[i] > A[i+1]):
         i+=1 
     if i == (len(A)-1):
@@ -28,4 +29,4 @@ def validMountainArray(A: List[int]) -> bool:
 
 #print(validMountainArray([8,4,3]))
 
-print(validMountainArray([0,3,2,1])
+print(validMountainArray([0,3,2,1]))
