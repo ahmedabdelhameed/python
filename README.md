@@ -1,2 +1,2 @@
-# python
-python code 
+# Leedcode problems implemented in Python
+
